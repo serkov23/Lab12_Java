@@ -35,9 +35,9 @@ public class MyFrame extends JFrame {
         }
         Icon icon = createIcon(Color.MAGENTA);
         Icon prIcon = createIcon(Color.CYAN);
-        Icon rIcon=createIcon(Color.BLUE);
-        Icon selIcon=createIcon(Color.GRAY);
-        Icon rsIcon=createIcon(Color.GREEN);
+        Icon rIcon = createIcon(Color.BLUE);
+        Icon selIcon = createIcon(Color.GRAY);
+        Icon rsIcon = createIcon(Color.GREEN);
         for (var i : buttons) {
             i.setIcon(icon);
             i.setPressedIcon(prIcon);
